@@ -1,23 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package testeempregado;
 
-import org.me.empregado.Empregado;
 import org.me.empregado.Engenheiro;
 import org.me.empregado.Gerente;
 
-/**
- *
- * @author Fatec
- */
 public class TesteEmpregado {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Engenheiro e1 = new Engenheiro(001,5000,"Luiz",
                 "Técnologia", 12321321);
@@ -39,3 +26,5 @@ public class TesteEmpregado {
     }
     
 }
+
+

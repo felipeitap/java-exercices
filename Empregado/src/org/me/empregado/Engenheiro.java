@@ -1,4 +1,5 @@
 package org.me.empregado;
+
 public class Engenheiro extends Empregado {
     private String departamento;
     private int CREA; 
@@ -17,30 +18,18 @@ public class Engenheiro extends Empregado {
         super.setSalario_base(salarioAtual + (salarioAtual * 0.5));
     }
 
-    /**
-     * @return the departamento
-     */
     public String getDepartamento() {
         return departamento;
     }
 
-    /**
-     * @param departamento the departamento to set
-     */
     public void setDepartamento(String departamento) {
         this.departamento = departamento;
     }
 
-    /**
-     * @return the CREA
-     */
     public int getCREA() {
         return CREA;
     }
 
-    /**
-     * @param CREA the CREA to set
-     */
     public void setCREA(int CREA) {
         this.CREA = CREA;
     }
@@ -51,3 +40,6 @@ public class Engenheiro extends Empregado {
                 super.toString(), departamento, CREA);
     }
 }
+
+
+

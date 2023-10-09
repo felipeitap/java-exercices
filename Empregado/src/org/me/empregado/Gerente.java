@@ -1,4 +1,5 @@
 package org.me.empregado;
+
 public class Gerente  extends Empregado{
     private double bonus;
     
@@ -14,20 +15,13 @@ public class Gerente  extends Empregado{
         super.setSalario_base(salarioAtual + getBonus());
     }
 
-    /**
-     * @return the bonus
-     */
     public double getBonus() {
         return bonus;
     }
 
-    /**
-     * @param bonus the bonus to set
-     */
     public void setBonus(double bonus) {
         this.bonus = bonus;
     }
-    
     
     @Override
     public String toString(){
@@ -36,3 +30,5 @@ public class Gerente  extends Empregado{
     }
     
 }
+
+
